@@ -4,13 +4,13 @@
 
 var express = require('express');
 var router = express.Router();
-var walker = require('isit-site-tools-calvert').walker;
-var walkRunner = require('isit-site-tools-calvert').walkRunner;
-var imagesTest = require('isit-site-tools-calvert').imagesTest;
+var walker = require('isit-site-tools-delduca').walker;
+var walkRunner = require('isit-site-tools-delduca').walkRunner;
+var imagesTest = require('isit-site-tools-delduca').imagesTest;
 var config = require('isit-code-lastname').elfConfig;
 var fs = require('fs');
 var utils = require('isit-code-lastname').elfUtils;
-var imageHelp = require('isit-site-tools-calvert').imageHelp;
+var imageHelp = require('isit-site-tools-delduca').imageHelp;
 var elfLog = require('isit-code-lastname').elvenLog('makers');
 elfLog.setLevel(elfLog.logLevelDetails);
 
