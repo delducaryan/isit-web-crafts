@@ -7,11 +7,11 @@ var router = express.Router();
 var walker = require('isit-site-tools-delduca').walker;
 var walkRunner = require('isit-site-tools-delduca').walkRunner;
 var imagesTest = require('isit-site-tools-delduca').imagesTest;
-var config = require('isit-code-lastname').elfConfig;
+var config = require('isit-code-delduca').elfConfig;
 var fs = require('fs');
-var utils = require('isit-code-lastname').elfUtils;
+var utils = require('isit-code-delduca').elfUtils;
 var imageHelp = require('isit-site-tools-delduca').imageHelp;
-var elfLog = require('isit-code-lastname').elvenLog('makers');
+var elfLog = require('isit-code-delduca').elvenLog('makers');
 elfLog.setLevel(elfLog.logLevelDetails);
 
 router.get('/makeHtml', function(request, response) {
