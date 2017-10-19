@@ -15,7 +15,8 @@ requirejs.config({
         imagePicker: 'javascripts/make-image/image-picker',
         display: 'javascripts/tools/display',
         settings: 'javascripts/tools/settings',
-        utilities: 'javascripts/tools/utilities'
+        utilities: 'javascripts/tools/utilities',
+        reactBundle: 'javascripts/bundle'
     }
 });
 
