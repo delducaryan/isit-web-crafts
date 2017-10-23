@@ -24,6 +24,7 @@
     "passport-local": "^1.0.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "requirejs": "^2.3.5",
     "serve-favicon": "^2.4.5",
     "sharp": "^0.18.4",
     "webpack": "^3.8.1"

@@ -13,6 +13,18 @@ class HomeButtons extends React.Component {
             makeHtml: 'Make HTML'
         };
     }
+    
+    makeHtml() {
+		$.publish('clientMakeHtml', {
+			message : "The user wants to makeHtml."
+		});
+	}
+	
+	makeImage() {
+		$.publish('clientMakeImage', {
+			message : "The user wants to makeImage."
+		});
+	}
 
     render() {
         return <MuiThemeProvider>
