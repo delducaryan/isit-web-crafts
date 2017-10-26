@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { configure, shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 configure({adapter: new Adapter()});
@@ -7,24 +6,19 @@ configure({adapter: new Adapter()});
 import ElfDebugEnzyme from '../ElfDebugEnzyme';
 const elfDebugEnzyme = new ElfDebugEnzyme(true, 'sanity');
 
-import ReactHome from '../ReactHome';
 import HomeButtons from '../HomeButtons';
+import '../../public/javascripts/tools/tiny-pub-sub';
 import raf from '../temp-poly-fills';
 
-describe('basic sanity test', function() {
+describe('HomeButtons tests', function() {
 
     it('expects true to be true', function() {
         expect(true).toBe(true);
     });
 
-    it('renders ReactHome without crashing', () => {
-        const div = document.createElement('div');
-        ReactDOM.render(<ReactHome />, div);
-    });
+    it('renders state of XXX after button click', () => {
+        const wrapper = shallow(<HomeButtons />);
+        elfDebugEnzyme.getAll(wrapper, true);
 
-    it('renders HomeButtons without crashing', () => {
-        const div = document.createElement('div');
-        ReactDOM.render(<HomeButtons />, div);
     });
-
 });
