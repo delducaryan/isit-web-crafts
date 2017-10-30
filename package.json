@@ -7,9 +7,16 @@
     "coverage": "jest --coverage",
     "karma-test": "karma start",
     "start": "nodemon ./bin/www",
-    "buildDev": "node_modules/.bin/webpack"
+    "buildDev": "node_modules/.bin/webpack --watch"
   },
   "jest": {
+    "verbose": true,
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "ElfDebugEnzyme.js",
+      "tiny-pub-sub.js",
+      "temp-poly-fills.js"
+    ],
     "setupFiles": [
       "./source/setup-jest.js"
     ]
@@ -27,7 +34,7 @@
     "jquery": "^3.2.1",
     "marked": "^0.3.6",
     "material-ui": "^0.19.4",
-    "mongoose": "^4.12.4",
+    "mongoose": "^4.12.5",
     "morgan": "^1.9.0",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",

@@ -13,29 +13,30 @@ class HomeButtons extends React.Component {
             makeHtml: 'Make HTML'
         };
     }
-    
+
     makeHtml() {
-		$.publish('clientMakeHtml', {
-			message : "The user wants to makeHtml."
-		});
-	}
-	
-	makeImage() {
-		$.publish('clientMakeImage', {
-			message : "The user wants to makeImage."
-		});
-	}
+        $.publish('clientMakeHtml', {
+            message: 'The user wants to makeHtml.'
+        });
+    }
+
+    makeImage() {
+        $.publish('clientMakeImage', {
+            message: 'The user wants to makeImage.'
+        });
+    }
 
     render() {
         return <MuiThemeProvider>
             <div>
                 <h1>Home Page</h1>
                 <RaisedButton
-                    id="makeHtml"
+                    id='makeHtml'
                     style={buttonStyle}
                     primary={true}
                     onClick={this.makeHtml}>{this.state.makeHtml}</RaisedButton>
                 <RaisedButton
+                    id='makeImage'
                     style={buttonStyle}
                     primary={true}
                     onClick={this.makeImage}>{this.state.makeImage}</RaisedButton>
