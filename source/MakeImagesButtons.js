@@ -9,8 +9,12 @@ class MakeImagesButtons extends React.Component {
         this.state = {
             createMarkdown: "Create Image Page",
             deleteMarkdown: "Delete Image Page",
+            status: '',
             home: 'Go Home'
         };
+
+        this.deleteMarkdown = this.deleteMarkdown.bind(this);
+        this.createMarkdown = this.createMarkdown.bind(this);
     }
 
     deleteMarkdown() {
@@ -18,7 +22,11 @@ class MakeImagesButtons extends React.Component {
         fetch('/makers/deleteMarkdown').then(function(response) {
             return response.json();
         }).then(function(json) {
-            console.log('parsed json', json);
+            let temp = JSON.stringify(json, null, 4);
+            console.log(temp);
+            that.setState({
+                status: temp
+            });
         }).catch(function(ex) {
             console.log('Delete Markdown load error: ', ex);
         });
@@ -29,7 +37,11 @@ class MakeImagesButtons extends React.Component {
         fetch('/makers/makeImages').then(function(response) {
             return response.json();
         }).then(function(json) {
-            console.log('parsed json', json);
+            let temp = JSON.stringify(json, null, 4);
+            console.log(temp);
+            that.setState({
+                status: temp
+            });
         }).catch(function(ex) {
             console.log('Create Markdown load error: ', ex);
         });
@@ -63,6 +75,9 @@ class MakeImagesButtons extends React.Component {
                     onClick={this.deleteMarkdown}>
                     {this.state.deleteMarkdown}
                 </RaisedButton>
+                <pre>
+                    {this.state.status}
+                </pre>
             </div>
         </MuiThemeProvider>;
     }
