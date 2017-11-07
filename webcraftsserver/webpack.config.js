@@ -2,7 +2,7 @@ var path = require('path');
 var webpack = require('webpack');
 
 module.exports = {
-    entry: './source/react-main.js',
+    entry: './webcrafts_es6/react-main.js',
     output: {path: __dirname, filename: './public/javascripts/bundle.js'},
     module: {
         loaders: [
@@ -14,5 +14,5 @@ module.exports = {
             }
         ]
     },
-    devtool: "source-map",
+    devtool: "webcrafts_es6-map",
 };

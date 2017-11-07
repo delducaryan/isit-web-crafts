@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a71f5084-857f-4a32-9802-3ea1f7cdb4b4" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.babelrc" afterPath="$PROJECT_DIR$/webcraftsserver/.babelrc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.bowerrc" afterPath="$PROJECT_DIR$/webcraftsserver/.bowerrc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.eslintrc" afterPath="$PROJECT_DIR$/webcraftsserver/.eslintrc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/webcraftsserver/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.jscsrc" afterPath="$PROJECT_DIR$/webcraftsserver/.jscsrc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.prettierrc" afterPath="$PROJECT_DIR$/webcraftsserver/.prettierrc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ElvenImagePicker.class.violet.html" afterPath="$PROJECT_DIR$/webcraftsserver/ElvenImagePicker.class.violet.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/webcraftsserver/Gruntfile.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/webcraftsserver/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/all-images.json" afterPath="$PROJECT_DIR$/webcraftsserver/all-images.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/webcraftsserver/app.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/www" afterPath="$PROJECT_DIR$/webcraftsserver/bin/www" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/webcraftsserver/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/config/ElvenConfig.json" afterPath="$PROJECT_DIR$/webcraftsserver/config/ElvenConfig.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/elven-image-picker.conf" afterPath="$PROJECT_DIR$/webcraftsserver/elven-image-picker.conf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/elven-image-picker.service" afterPath="$PROJECT_DIR$/webcraftsserver/elven-image-picker.service" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jest" afterPath="$PROJECT_DIR$/webcraftsserver/jest" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/karma.conf.js" afterPath="$PROJECT_DIR$/webcraftsserver/karma.conf.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/models/user.js" afterPath="$PROJECT_DIR$/webcraftsserver/models/user.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/nodemon.json" afterPath="$PROJECT_DIR$/webcraftsserver/nodemon.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/webcraftsserver/package-lock.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/webcraftsserver/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/passport/init.js" afterPath="$PROJECT_DIR$/webcraftsserver/passport/init.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/passport/login.js" afterPath="$PROJECT_DIR$/webcraftsserver/passport/login.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/passport/signup.js" afterPath="$PROJECT_DIR$/webcraftsserver/passport/signup.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/favicon.png" afterPath="$PROJECT_DIR$/webcraftsserver/public/favicon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/SpaceNeedle.png" afterPath="$PROJECT_DIR$/webcraftsserver/public/images/SpaceNeedle.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/javascripts/control.js" afterPath="$PROJECT_DIR$/webcraftsserver/public/javascripts/control.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/javascripts/main.js" afterPath="$PROJECT_DIR$/webcraftsserver/public/javascripts/main.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/javascripts/make-html/make-html.js" afterPath="$PROJECT_DIR$/webcraftsserver/public/javascripts/make-html/make-html.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/javascripts/make-html/walking.js" afterPath="$PROJECT_DIR$/webcraftsserver/public/javascripts/make-html/walking.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/javascripts/make-image/image-picker.js" afterPath="$PROJECT_DIR$/webcraftsserver/public/javascripts/make-image/image-picker.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/javascripts/make-image/make-image.js" afterPath="$PROJECT_DIR$/webcraftsserver/public/javascripts/make-image/make-image.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/javascripts/tools/display.js" afterPath="$PROJECT_DIR$/webcraftsserver/public/javascripts/tools/display.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/javascripts/tools/settings.js" afterPath="$PROJECT_DIR$/webcraftsserver/public/javascripts/tools/settings.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/javascripts/tools/tiny-pub-sub.js" afterPath="$PROJECT_DIR$/webcraftsserver/public/javascripts/tools/tiny-pub-sub.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/javascripts/tools/utilities.js" afterPath="$PROJECT_DIR$/webcraftsserver/public/javascripts/tools/utilities.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/webcraftsserver/public/stylesheets/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/routes/connect.js" afterPath="$PROJECT_DIR$/webcraftsserver/routes/connect.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/routes/elf-types.js" afterPath="$PROJECT_DIR$/webcraftsserver/routes/elf-types.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/routes/elven-config.js" afterPath="$PROJECT_DIR$/webcraftsserver/routes/elven-config.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/webcraftsserver/routes/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/routes/login.js" afterPath="$PROJECT_DIR$/webcraftsserver/routes/login.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/routes/makers.js" afterPath="$PROJECT_DIR$/webcraftsserver/routes/makers.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/routes/users.js" afterPath="$PROJECT_DIR$/webcraftsserver/routes/users.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/ElfDebugEnzyme.js" afterPath="$PROJECT_DIR$/webcrafts/src/webcrafts_es6/ElfDebugEnzyme.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/HomeButtons.js" afterPath="$PROJECT_DIR$/webcrafts/src/webcrafts_es6/HomeButtons.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/MakeHtml.js" afterPath="$PROJECT_DIR$/webcrafts/src/webcrafts_es6/MakeHtml.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/MakeHtmlDropDowns.js" afterPath="$PROJECT_DIR$/webcrafts/src/webcrafts_es6/MakeHtmlDropDowns.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/MakeHtmlHomeButton.js" afterPath="$PROJECT_DIR$/webcrafts/src/webcrafts_es6/MakeHtmlHomeButton.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/MakeImages.js" afterPath="$PROJECT_DIR$/webcrafts/src/webcrafts_es6/MakeImages.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/MakeImagesButtons.js" afterPath="$PROJECT_DIR$/webcrafts/src/webcrafts_es6/MakeImagesButtons.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/ReactHome.js" afterPath="$PROJECT_DIR$/webcrafts/src/webcrafts_es6/ReactHome.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/__tests__/HomeButtons.js" afterPath="$PROJECT_DIR$/webcrafts/src/webcrafts_es6/__tests__/HomeButtons.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/__tests__/ReactHome.js" afterPath="$PROJECT_DIR$/webcrafts/src/webcrafts_es6/__tests__/ReactHome.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/__tests__/sanity.js" afterPath="$PROJECT_DIR$/webcrafts/src/webcrafts_es6/__tests__/sanity.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/react-main.js" afterPath="$PROJECT_DIR$/webcrafts/src/webcrafts_es6/react-main.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/setup-jest.js" afterPath="$PROJECT_DIR$/webcrafts/src/webcrafts_es6/setup-jest.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/temp-poly-fills.js" afterPath="$PROJECT_DIR$/webcrafts/src/webcrafts_es6/temp-poly-fills.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/support/jasmine.json" afterPath="$PROJECT_DIR$/webcraftsserver/spec/support/jasmine.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/test-basic.js" afterPath="$PROJECT_DIR$/webcraftsserver/spec/test-basic.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/error.pug" afterPath="$PROJECT_DIR$/webcraftsserver/views/error.pug" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/index.html" afterPath="$PROJECT_DIR$/webcraftsserver/views/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/index.pug" afterPath="$PROJECT_DIR$/webcraftsserver/views/index.pug" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/layout.pug" afterPath="$PROJECT_DIR$/webcraftsserver/views/layout.pug" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/login.pug" afterPath="$PROJECT_DIR$/webcraftsserver/views/login.pug" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/logout.pug" afterPath="$PROJECT_DIR$/webcraftsserver/views/logout.pug" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/make-html.html" afterPath="$PROJECT_DIR$/webcraftsserver/views/make-html.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/make-html.pug" afterPath="$PROJECT_DIR$/webcraftsserver/views/make-html.pug" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/pix-picker.html" afterPath="$PROJECT_DIR$/webcraftsserver/views/pix-picker.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/pix-picker.pug" afterPath="$PROJECT_DIR$/webcraftsserver/views/pix-picker.pug" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/register.pug" afterPath="$PROJECT_DIR$/webcraftsserver/views/register.pug" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/renameJadeToPug.js" afterPath="$PROJECT_DIR$/webcraftsserver/views/renameJadeToPug.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/temp.html" afterPath="$PROJECT_DIR$/webcraftsserver/views/temp.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/temp.pug" afterPath="$PROJECT_DIR$/webcraftsserver/views/temp.pug" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webcraftsserver/webpack.config.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>$PROJECT_DIR$/../../../../charlie</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/source/ReactHome.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/make-html/make-html.js" />
+        <option value="$PROJECT_DIR$/views/index.pug" />
+        <option value="$PROJECT_DIR$/source/MakeHtmlHomeButton.js" />
+        <option value="$PROJECT_DIR$/source/react-main.js" />
+        <option value="$PROJECT_DIR$/source/HomeButtons.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/config/ElvenConfig.json" />
+        <option value="$PROJECT_DIR$/node_modules/isit-site-tools-delduca/config/ElvenConfig.json" />
+        <option value="$PROJECT_DIR$/routes/makers.js" />
+        <option value="$PROJECT_DIR$/node_modules/isit-code-delduca/elf-config.js" />
+        <option value="$PROJECT_DIR$/source/MakeHtmlGenerateHTMLButton.js" />
+        <option value="$PROJECT_DIR$/source/MakeHtml.js" />
+        <option value="$PROJECT_DIR$/source/MakeHtmlDropDowns.js" />
+        <option value="$PROJECT_DIR$/source/MakeImagesButtons.js" />
+        <option value="$PROJECT_DIR$/webcraftsserver/package.json" />
+        <option value="$PROJECT_DIR$/webcraftsserver/bin/www" />
+        <option value="$PROJECT_DIR$/webcrafts/package.json" />
+        <option value="$PROJECT_DIR$/webcrafts/webpack.config.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER">
+    <gruntfile path="$PROJECT_DIR$/webcraftsserver/Gruntfile.js" />
+  </component>
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/webcraftsserver/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/webcraftsserver/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="942" />
+    <option name="width" value="978" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="isit-web-crafts-delduca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="isit-web-crafts-delduca" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="isit-web-crafts-delduca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="isit-web-crafts-delduca" type="462c0819:PsiDirectoryNode" />
+              <item name="webcrafts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="isit-web-crafts-delduca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="isit-web-crafts-delduca" type="462c0819:PsiDirectoryNode" />
+              <item name="webcrafts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="isit-web-crafts-delduca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="isit-web-crafts-delduca" type="462c0819:PsiDirectoryNode" />
+              <item name="webcraftsserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.selected.package.jscs" value="$PROJECT_DIR$/node_modules/jscs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webcrafts" />
+      <recent name="$PROJECT_DIR$/source" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webcrafts/src" />
+      <recent name="$PROJECT_DIR$/webcrafts/src/webcrafts_es6" />
+      <recent name="$PROJECT_DIR$/webcraftsserver" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a71f5084-857f-4a32-9802-3ea1f7cdb4b4" name="Default" comment="" />
+      <created>1509402192402</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1509402192402</updated>
+      <workItem from="1509402198053" duration="64000" />
+      <workItem from="1509402531866" duration="4858000" />
+      <workItem from="1509573374269" duration="374000" />
+      <workItem from="1509573903916" duration="7566000" />
+      <workItem from="1510009562493" duration="884000" />
+      <workItem from="1510010681436" duration="18000" />
+      <workItem from="1510011315304" duration="2300000" />
+      <workItem from="1510014181881" duration="653000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16717000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="942" y="0" width="978" height="1056" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/webcrafts/src/webcrafts_es6/MakeHtmlDropDowns.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcraftsserver/config/ElvenConfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcrafts/src/webcrafts_es6/react-main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcraftsserver/public/javascripts/make-image/image-picker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcraftsserver/public/javascripts/make-image/make-image.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcraftsserver/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcraftsserver/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcraftsserver/elven-image-picker.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcraftsserver/public/javascripts/make-html/make-html.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcraftsserver/public/javascripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcraftsserver/public/javascripts/control.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/isit-site-tools-delduca/config/ElvenConfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/isit-code-delduca/elf-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="57" column="34" lean-forward="false" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcrafts/src/webcrafts_es6/ReactHome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcrafts/src/webcrafts_es6/HomeButtons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcraftsserver/routes/makers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1620">
+          <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcrafts/src/webcrafts_es6/MakeHtmlHomeButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/MakeHtmlGenerateHTMLButton.js" />
+    <entry file="file://$PROJECT_DIR$/webcrafts/src/webcrafts_es6/MakeHtml.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcraftsserver/config/ElvenConfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcrafts/src/webcrafts_es6/MakeHtmlDropDowns.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcrafts/src/webcrafts_es6/MakeImagesButtons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcraftsserver/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcraftsserver/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcrafts/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcrafts/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcrafts/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcrafts/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcrafts/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcrafts/src/webcrafts_es6/react-main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcrafts/.jscsrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
