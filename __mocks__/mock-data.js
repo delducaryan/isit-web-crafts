@@ -29,10 +29,18 @@ const getData = (url) => {
                 }]
             };
             return configSummary;
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> a46fb58b3e29564bd64aaf94c84436404d11f2dd
         default:
             return {};
     }
 };
 
+<<<<<<< HEAD
 export default getData;
+=======
+export default getData;
+>>>>>>> a46fb58b3e29564bd64aaf94c84436404d11f2dd

@@ -15,7 +15,11 @@ const fetch = function(url) {
     };
 
     return {
+<<<<<<< HEAD
         then: function() {
+=======
+        then: function(func) {
+>>>>>>> a46fb58b3e29564bd64aaf94c84436404d11f2dd
             return {
                 then: function(func) {
                     func(objectState);
@@ -31,4 +35,8 @@ const fetch = function(url) {
 
 whatwgFetch.fetch = fetch;
 window.fetch = fetch;
+<<<<<<< HEAD
 module.exports = whatwgFetch;
+=======
+module.exports = whatwgFetch;
+>>>>>>> a46fb58b3e29564bd64aaf94c84436404d11f2dd
