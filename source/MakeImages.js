@@ -7,6 +7,7 @@ class MakeImages extends React.Component {
 
         return <MuiThemeProvider>
             <div>
+                <h1>Pix Picker</h1>
                 <MakeImagesButtons />
             </div>
         </MuiThemeProvider>;
