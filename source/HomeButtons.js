@@ -1,6 +1,7 @@
 import React from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import RaisedButton from 'material-ui/RaisedButton';
+import {connect} from 'react-redux';
 // import {black, red} from 'material-ui/styles/colors';
 
 class HomeButtons extends React.Component {
@@ -50,5 +51,15 @@ class HomeButtons extends React.Component {
 var buttonStyle = {
     margin: '15px'
 };
+
+const mapStateToProps = (state) => {
+    return {
+        loggedIn: state.loggedIn,
+        component: state.component,
+        signInLabel: state.signInLabel
+    }
+};
+
+HomeButtons = connect(mapStateToProps)(HomeButtons);
 
 export default HomeButtons;

@@ -124,12 +124,13 @@ class MakeHtmlDropDowns extends React.Component {
                     {destDirs}
                 </DropDownMenu>
                 <RaisedButton
+                    id="generate"
                     style={buttonStyle}
                     primary={true}
                     onClick={this.generateHtml}>
                     {this.state.walk}
                 </RaisedButton>
-                <pre>
+                <pre id="configSummary">
                     {this.state.configSummary}
                 </pre>
             </div>
